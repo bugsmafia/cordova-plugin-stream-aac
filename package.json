@@ -1,48 +1,31 @@
 {
-  "name": "cordova-plugin-media",
-  "version": "2.3.1-dev",
-  "description": "Cordova Media Plugin",
+  "name": "PlayStream",
+  "version": "0.2.13",
+  "description": "This plugin paly streaming audios into AAC+ and MP4 streamings using aacdecoder-android.",
   "cordova": {
-    "id": "cordova-plugin-media",
+    "id": "com.baricio.playstream",
     "platforms": [
-      "android",
-      "amazon-fireos",
-      "ubuntu",
-      "ios",
-      "blackberry10",
-      "wp7",
-      "wp8",
-      "windows8",
-      "windows",
-      "tizen"
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-media"
+    "url": "git+https://github.com/baricio/cordova-plugin-playstream.git"
   },
   "keywords": [
     "cordova",
-    "media",
+    "AAC+",
+    "Streaming",
+    "Audio",
+    "Player",
+    "Icecast",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-amazon-fireos",
-    "cordova-ubuntu",
-    "cordova-ios",
-    "cordova-blackberry10",
-    "cordova-wp7",
-    "cordova-wp8",
-    "cordova-windows8",
-    "cordova-windows",
-    "cordova-tizen"
+    "cordova-android"
   ],
-  "scripts": {
-    "test": "npm run jshint",
-    "jshint": "jshint www && jshint src && jshint tests"
+  "author": "baricio",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/baricio/cordova-plugin-playstream/issues"
   },
-  "author": "Apache Software Foundation",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "jshint": "^2.6.0" 
-  }
+  "homepage": "https://github.com/baricio/cordova-plugin-playstream#readme"
 }
