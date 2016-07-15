@@ -43,5 +43,9 @@ PlayStream.prototype.release = function() {
     exec(null, this.errorCallback, "PlayStream", "release", []);
 };
 
+PlayStream.prototype.setVolume = function(volume) {
+    exec(null, null, "PlayStream", "setVolume", [this.id, volume]);
+};
+
 //var PlayStream = new PlayStream(); 
 module.exports = PlayStream;
