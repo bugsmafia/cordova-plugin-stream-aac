@@ -162,4 +162,10 @@ public class PlayStream extends CordovaPlugin {
         
 	}
 	
+	@Override
+    public void onDestroy() {
+        if(PlayStream.STATUS != PlayStream.MEDIA_NONE && PlayStream.STATUS != PlayStream.MEDIA_STOPPED)
+		multiPlayer.stop();
+    }
+	
 }
